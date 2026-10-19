@@ -52,6 +52,11 @@ repositories {
             includeGroup "curse.maven"
         }
     }
+
+    maven {
+        name = "C4's Maven"
+        url = "https://maven.theillusivec4.top/"
+    }
 }
 
 // Declare capabilities on the outgoing configurations.

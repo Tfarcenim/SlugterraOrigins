@@ -1,0 +1,36 @@
+{
+  "criteria": {
+    "eat_cookie": {
+      "conditions": {
+        "item": {
+          "items": [
+            "minecraft:cookie"
+          ]
+        }
+      },
+      "trigger": "minecraft:consume_item"
+    }
+  },
+  "display": {
+    "announce_to_chat": true,
+    "background": "minecraft:textures/gui/advancements/backgrounds/end.png",
+    "description": {
+      "text": "Unlock Shadow Clan Origin"
+    },
+    "frame": "task",
+    "hidden": false,
+    "icon": {
+      "item": "minecraft:cookie"
+    },
+    "show_toast": true,
+    "title": {
+      "text": "Unlock Shadow Clan"
+    }
+  },
+  "requirements": [
+    [
+      "eat_cookie"
+    ]
+  ],
+  "sends_telemetry_event": true
+}

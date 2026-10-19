@@ -2,6 +2,17 @@
   "loading_priority": 1,
   "replace": true,
   "origins": [
-    "slugterraorigins:cave_troll"
+    "slugterraorigins:amphibanoid",
+    "slugterraorigins:cave_troll",
+    "slugterraorigins:molenoid",
+    {
+      "condition": {
+        "type": "origins:advancement",
+        "advancement": "slugterraorigins:unlock_shadow_clan"
+      },
+      "origins": [
+        "slugterraorigins:shadow_clan"
+      ]
+    }
   ]
 }
